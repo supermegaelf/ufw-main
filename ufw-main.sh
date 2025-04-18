@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Node public IP: " node_public_ip
+read -p $'\033[32mNode public IP: \033[0m' node_public_ip
 
 apt update && apt install ufw -y
 
